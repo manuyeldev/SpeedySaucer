@@ -10,9 +10,5 @@ offset_right = 1152.0
 offset_bottom = 648.0
 texture = ExtResource("1_kd63o")
 
-[node name="Player" parent="." instance=ExtResource("2_tmir2")]
-position = Vector2(509, 83)
-
-[node name="Player2" parent="." instance=ExtResource("2_tmir2")]
-position = Vector2(260, 83)
-gravity_scale = 44.02
+[node name="ParentPlayer" parent="." instance=ExtResource("2_tmir2")]
+gravity_scale = 0.0
