@@ -14,4 +14,3 @@ texture = ExtResource("1_kd63o")
 
 [node name="ParentPlayer" parent="." instance=ExtResource("2_tmir2")]
 position = Vector2(609, 300)
-gravity_scale = 0.0
