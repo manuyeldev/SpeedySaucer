@@ -4,17 +4,17 @@
 [ext_resource type="Script" path="res://player.gd" id="1_s265r"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vkinj"]
-radius = 46.0109
+radius = 27.074
 
 [node name="Player" type="RigidBody2D"]
 gravity_scale = 0.0
 script = ExtResource("1_s265r")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.6, 0.6)
 texture = ExtResource("1_58hup")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 1)
 shape = SubResource("CircleShape2D_vkinj")
 
 [node name="Camera2D" type="Camera2D" parent="."]
