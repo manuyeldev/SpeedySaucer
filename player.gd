@@ -3,8 +3,7 @@ extends RigidBody2D
 var force = 1500
 
 func _ready():	
-	var addition_result = add(4, 5)
-	print(addition_result)
+	pass
 
 func _physics_process(delta):
 	if Input.is_action_pressed("move_right"):
