@@ -3,11 +3,15 @@ extends RigidBody2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	# test()
-	pass
+	test()
 
 func test():
 	# print("This is the Test function " + "from the player script")
 	# + - * / **
-	print((2 + 3) * 5)
-	print("2 + 2 is " + str(4))
+	var my_variable = "Hello"
+	print(my_variable)
+	print(my_variable)
+	print(my_variable)
+	my_variable = "Good Bye"
+	print(my_variable)
+	print(my_variable)
