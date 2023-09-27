@@ -1,6 +1,6 @@
 extends RigidBody2D
 
-var force = 1500
+var force = 1000
 
 func _ready():	
 	pass

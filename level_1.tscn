@@ -14,9 +14,12 @@ offset_right = 1152.0
 offset_bottom = 648.0
 texture = ExtResource("1_kd63o")
 
-[node name="ParentPlayer" parent="." instance=ExtResource("2_tmir2")]
+[node name="Player" parent="." instance=ExtResource("2_tmir2")]
 position = Vector2(176, 106)
 
-[node name="Area2D" parent="." instance=ExtResource("4_kc0pm")]
+[node name="Maze" parent="." instance=ExtResource("4_kc0pm")]
 z_index = -50
 position = Vector2(101, 99)
+
+[connection signal="body_entered" from="Maze" to="." method="_on_maze_body_entered"]
+[connection signal="body_exited" from="Maze" to="." method="_on_maze_body_exited"]
